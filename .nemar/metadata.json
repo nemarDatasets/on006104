@@ -3,7 +3,7 @@
   "pipeline_stage": "validated",
   "title": "EEG dataset for speech decoding",
   "description": "This dataset comprises EEG recordings from two related studies (2019 and 2021) investigating speech decoding through phoneme discrimination tasks combined with transcranial magnetic stimulation (TMS). Study 1 involved 8 participants performing discrimination of consonant-vowel and vowel-consonant phoneme pairs with TMS targeting motor cortex regions (lip and tongue motor areas). Study 2 expanded to 16 participants and included single phonemes, phoneme pairs, and phoneme triplets (real and pseudowords) with additional TMS targets in Broca's area and verbal memory regions. The dataset provides a comprehensive resource for investigating the neural mechanisms underlying speech perception and articulation.",
-  "methods_description": "EEG recordings were collected during phoneme discrimination tasks with concurrent TMS stimulation. TMS was delivered using a Magstim Super Rapid Plus1 stimulator with a figure-of-eight 40 mm coil at 110% of resting motor threshold as paired pulses with 50ms interpulse interval. Study 1 targeted left lip motor cortex (-56, -8, 46) and tongue motor cortex (-60, -10, 25). Study 2 included additional targets in Broca's area (BA 44: -51, 7, 23) and verbal memory region (BA 6: -46, 1, 41). Participants performed button-press responses to identify speech stimuli including single phonemes, phoneme pairs (CV/VC), and phoneme triplets (CVC sequences).",
+  "methods_description": "EEG recordings were collected during phoneme discrimination tasks with concurrent TMS stimulation. Study 1 (2019) included 8 participants performing CV and VC phoneme pair discrimination with TMS applied to left lip motor cortex (-56, -8, 46) and tongue motor cortex (-60, -10, 25). Study 2 (2021) involved 16 participants discriminating single phonemes, CV/VC pairs, real words, and pseudowords with expanded TMS targets including Broca's area (BA 44: -51, 7, 23) and verbal memory region (BA 6: -46, 1, 41). TMS was delivered using a Magstim Super Rapid Plus1 stimulator with a figure-of-eight 40 mm coil at 110% of resting motor threshold as paired pulses with 50 ms interpulse interval.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -20,20 +20,16 @@
       "term": "EEG"
     },
     {
-      "term": "speech decoding"
+      "term": "transcranial magnetic stimulation"
+    },
+    {
+      "term": "speech perception"
     },
     {
       "term": "phoneme discrimination"
     },
     {
-      "term": "Transcranial Magnetic Stimulation",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D050781"
-    },
-    {
-      "term": "Motor Cortex",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D009044"
+      "term": "motor cortex"
     },
     {
       "term": "articulation"
