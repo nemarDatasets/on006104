@@ -1,9 +1,9 @@
 {
   "version": "2.0",
-  "dataset_id": "on006104",
-  "source": "openneuro",
-  "source_id": "ds006104",
+  "pipeline_stage": "enriched",
   "title": "EEG dataset for speech decoding",
+  "license": "CC0",
+  "dataset_type": "raw",
   "authors": {
     "João Pedro Carvalho Moreira": {},
     "Vinícius Rezende Carvalho": {},
@@ -13,22 +13,96 @@
     "Claudia Lainscsek": {},
     "Lindy Comstock": {}
   },
-  "license": "CC0",
-  "dataset_type": "raw",
   "related_identifiers": [
     {
       "identifier": "10.18112/openneuro.ds006104.v1.0.1",
       "identifier_type": "DOI",
       "relation_type": "IsIdenticalTo"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/on006104",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/on006104",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.1097/AUD.0b013e3181b1d42d",
+      "identifier_type": "DOI",
+      "relation_type": "References"
+    },
+    {
+      "identifier": "10.1523/JNEUROSCI.2383-16.2017",
+      "identifier_type": "DOI",
+      "relation_type": "References"
+    },
+    {
+      "identifier": "10.1002/hbm.22016",
+      "identifier_type": "DOI",
+      "relation_type": "References"
     }
   ],
-  "pipeline_stage": "seeded",
-  "bids_version": "1.6.0",
-  "recording_modality": [
+  "resource_type_general": "Dataset",
+  "modalities": [
     "eeg"
   ],
-  "datatypes": [
-    "eeg"
+  "resource_type_specific": "EEG Dataset",
+  "sizes": [
+    "0.0 KB (1 files)"
   ],
-  "acknowledgements": "This research was funded by the U.S. Russia Foundation through award No. 20-AUG-19-UCLA. The article is an output of a research project implemented as part of the Basic Research Program at the National Research University Higher School of Economics (HSE University). We would like to thank Tyler Wishard, Bela Syed, Sophia Mourad, and Panagiota Loizidou for their assistance in collecting the data. Figure 3a is adapted with permission from Wolters Kluwer Health, Inc.: Digeser FM, Wohlberedt T, Hoppe U. Contribution of spectrotemporal features on auditory event-related potentials elicited by consonant vowel syllables. Ear and Hearing. 2009 Dec 1;30(6):704-12. https://doi.org/10.1097/AUD.0b013e3181b1d42d. The Creative Commons license does not apply to this content. Use of the material in any format is prohibited without written permission from the publisher, Wolters Kluwer Health, Inc. Please contact permissions@lww.com for further information. Figure 3b is adapted from Khalighinejad B, da Silva GC, Mesgarani N. Dynamic encoding of acoustic features in neural responses to continuous speech. Journal of Neuroscience. 2017 Feb 22;37(8):2176-85. https://doi.org/10.1523/JNEUROSCI.2383-16.2017. Figure 3c is adapted with permission from John Wiley // Sons, Inc.: Rogasch NC, Fitzgerald PB. Assessing cortical network properties using TMS–EEG. Human brain mapping. 2013 Jul;34(7):1652-69. https://doi.org/10.1002/hbm.22016."
+  "formats": [
+    ".edf",
+    ".fdt",
+    ".json",
+    ".md",
+    ".set",
+    ".tsv"
+  ],
+  "description": "This dataset comprises EEG recordings from two related studies (2019 and 2021) investigating speech decoding through phoneme discrimination tasks combined with transcranial magnetic stimulation (TMS). Study 1 involved 8 participants performing discrimination of consonant-vowel and vowel-consonant phoneme pairs with TMS targeting motor cortex regions. Study 2 expanded to 16 participants and included single phonemes, phoneme pairs, and phoneme triplets (real and pseudowords) with additional TMS targets in Broca's area and supplementary motor area (SMA/BA 6). The dataset provides a comprehensive resource for investigating the neural mechanisms of speech perception and articulation.",
+  "methods_description": "EEG recordings were collected during phoneme discrimination tasks with concurrent TMS stimulation. Study 1 (2019) included 8 participants performing CV and VC phoneme pair discrimination with TMS applied to left lip motor cortex (LipM1) and tongue motor cortex (TongueM1). Study 2 (2021) involved 16 participants discriminating single phonemes, CV/VC pairs, real words, and pseudowords with TMS targeting additional sites including Broca's area (BA 44) and supplementary motor area (SMA/BA 6). TMS was delivered using a Magstim Super Rapid Plus1 stimulator with a figure-of-eight 40 mm coil at 110% of resting motor threshold as paired pulses with 50 ms interpulse interval.",
+  "keywords": [
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "speech decoding"
+    },
+    {
+      "term": "phoneme discrimination"
+    },
+    {
+      "term": "transcranial magnetic stimulation"
+    },
+    {
+      "term": "motor cortex"
+    },
+    {
+      "term": "speech perception"
+    },
+    {
+      "term": "articulation"
+    },
+    {
+      "term": "coarticulation"
+    },
+    {
+      "term": "Broca's area"
+    },
+    {
+      "term": "supplementary motor area"
+    }
+  ],
+  "funding_references": [
+    {
+      "funder_name": "U.S. Russia Foundation",
+      "award_number": "20-AUG-19-UCLA"
+    },
+    {
+      "funder_name": "National Research University Higher School of Economics"
+    }
+  ],
+  "source_hash": "89157a5de93bc8c0aa850a5ecca9284b54295b6c1eadc4f169b3a094c7866d2a"
 }
