@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "EEG dataset for speech decoding",
-  "description": "This dataset comprises EEG recordings from 24 participants across two related studies (2019 and 2021) investigating phoneme discrimination during concurrent transcranial magnetic stimulation (TMS) of motor and speech-related cortical regions. Participants listened to speech sounds—including single phonemes, phoneme pairs, and phoneme triplets (real and pseudowords)—and responded via button press, enabling exploration of articulation and coarticulation effects on neural speech decoding. The dataset supports research into cortical mechanisms underlying speech perception and motor cortex involvement in phoneme processing.",
-  "methods_description": "EEG was recorded during a phoneme discrimination task in which participants listened to speech sounds and identified stimuli via button press. Stimuli included single consonants and vowels, CV/VC phoneme pairs, and CVC phoneme triplets (real and pseudowords). TMS was applied using a Magstim Super Rapid Plus1 stimulator with a figure-of-eight 40 mm coil, delivering paired pulses at 110% of resting motor threshold with a 50ms interpulse interval, targeting motor cortex regions (LipM1, TongueM1) in Study 1 and additional regions (Broca's area, verbal memory region) in Study 2.",
+  "description": "This dataset contains EEG recordings from phoneme discrimination tasks combined with transcranial magnetic stimulation (TMS) of the motor cortex. It merges two studies: a 2019 study of consonant-vowel and vowel-consonant pairs in 8 participants, and a 2021 study in 16 participants that added single phonemes, real words and pseudowords. It is intended to support research on speech decoding and the role of articulation and coarticulation in speech perception.",
+  "methods_description": "Participants listened to speech sounds and identified stimuli with a button press while EEG was recorded. TMS was delivered with a Magstim Super Rapid Plus1 stimulator and a figure-of-eight 40 mm coil, using paired pulses with a 50 ms interpulse interval at 110% of resting motor threshold. Targets were lip and tongue areas of M1 in both studies, plus Broca's area (BA 44) and a verbal memory region (BA 6) in Study 2.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -37,9 +37,6 @@
     },
     {
       "term": "coarticulation"
-    },
-    {
-      "term": "BIDS"
     }
   ],
   "related_identifiers": [
@@ -89,7 +86,7 @@
     "eeg"
   ],
   "sizes": [
-    "90.0 GB (105 files)"
+    "83.82 GB (105 files)"
   ],
   "formats": [
     ".edf",
